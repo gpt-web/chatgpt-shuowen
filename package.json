@@ -72,5 +72,11 @@
     "*.{ts,tsx,vue}": [
       "eslint --ext .js,.ts,.vue ."
     ]
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react"
+    ]
   }
 }
