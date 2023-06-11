@@ -49,9 +49,6 @@ export default defineConfig((env) => {
       sourcemap: false,
       commonjsOptions: {
         ignoreTryCatch: false,
-      },
-      rollupOptions: {
-        external: ['pics/logo.png']
       }
     },
   }
